@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin&display=swap');
+
+*{
+    font-family: 'Anek Latin', Arial, Helvetica, sans-serif;
+}
+/* GENERALES */
+
+.blue-button{
+    width: 50%;
+    margin: 0.5em;
+    padding: 0.5em;
+    border-radius: 1em;
+    background-color: #1D3153;
+    border: none;
+    color: white;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em 0.5em; 
+    margin: 1em 0;
+    background-color: white;
+    border-radius: 1em;
+}
+h1, h4{
+    margin:0.5em;
+}
+body{
+    padding: 0;
+    display: flex;
+    margin: 0;
+    align-items: center;
+    flex-direction: column;
+    background-color:#F3F3F9;
+    color: #1D3153;
+}
+.main{
+    margin: 0;
+    width: 50%;
+    text-align: center;
+}
+.main  h4{
+    margin-bottom: 0.5em;
+}
+.products{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ESTILOS DE TABLA */ 
+
+.table-header .table-element{
+    background-color: #1D3153;
+    color: #F3F3F9;
+}
+.table{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+}
+.table-row{
+    width: 100%;
+    display: flex;
+}
+.table-element{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(25% - 0.1em);
+    background-color: bisque;
+    margin: 0.1em 0.1em 0 0;
+}
+
+.table-element input{
+    max-width: 80%;
+}
+.invisible{
+    display: none;
+}
+
+/*Notificación */
+.notification-container{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+}
+.notification{
+    background-color: #1D3153;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    max-width: 300px;
+    justify-content: space-between;
+    padding: 0.5em 1em;
+}
+
+@media (max-width: 600px) {
+    .main{
+        width: 90%;
+    }
+}

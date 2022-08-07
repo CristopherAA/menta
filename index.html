@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Sistema de llenado</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <script src="https://kit.fontawesome.com/2a5e3d6cb2.js" crossorigin="anonymous"></script>
+    <script defer src="main.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Bienvenidx</h1>
+    </div>
+    <div class="main">
+        <div class="select-store box">
+            <h4>Selecciona la tienda: </h4>
+            <select name="tiendas">
+            </select>
+            <button class="blue-button" id="btn-cargar-productos">Cargar</button>
+        </div>
+        <div class="products box invisible">
+            <div class="table">
+                <div class="table-row table-header">
+                    <div class="table-element">Producto</div>
+                    <div class="table-element">Enviado</div>
+                    <div class="table-element">Entregado</div>
+                    <div class="table-element">Cambio fisico</div>
+                </div>
+                <div class="table-row">
+                    <div class="table-element">Jitomate saladet</div>
+                    <div class="table-element">0</div>
+                    <div class="table-element"><input type="number"></div>
+                    <div class="table-element"><input type="number"></div>
+                </div>
+                <div class="table-row">
+                    <div class="table-element">Papa</div>
+                    <div class="table-element">0</div>
+                    <div class="table-element"><input type="number"></div>
+                    <div class="table-element"><input type="number"></div>
+                </div>
+                <div class="table-row">
+                    <div class="table-element">Manzana roja</div>
+                    <div class="table-element">0</div>
+                    <div class="table-element"><input type="number"></div>
+                    <div class="table-element"><input type="number"></div>
+                </div>
+                <div class="table-row">
+                    <div class="table-element">Manzana golden</div>
+                    <div class="table-element">0</div>
+                    <div class="table-element"><input type="number"></div>
+                    <div class="table-element"><input type="number"></div>
+                </div>
+                <div class="table-row">
+                    <div class="table-element">Pera mantequilla</div>
+                    <div class="table-element">0</div>
+                    <div class="table-element"><input type="number"></div>
+                    <div class="table-element"><input type="number"></div>
+                </div>
+                <div class="table-row">
+                    <div class="table-element">Plátano tabasco</div>
+                    <div class="table-element">0</div>
+                    <div class="table-element"><input type="number"></div>
+                    <div class="table-element"><input type="number"></div>
+                </div>
+                <div class="table-row">
+                    <div class="table-element">Cebolla blanca</div>
+                    <div class="table-element">0</div>
+                    <div class="table-element"><input type="number"></div>
+                    <div class="table-element"><input type="number"></div>
+                </div>
+                <div class="table-row">
+                    <div class="table-element">Aguacate Hass</div>
+                    <div class="table-element">0</div>
+                    <div class="table-element"><input type="number"></div>
+                    <div class="table-element"><input type="number"></div>
+                </div>
+                <div class="table-row">
+                    <div class="table-element">Limón con Semilla</div>
+                    <div class="table-element">0</div>
+                    <div class="table-element"><input type="number"></div>
+                    <div class="table-element"><input type="number"></div>
+                </div>
+                <div class="table-row">
+                    <div class="table-element">Chile serrano</div>
+                    <div class="table-element">0</div>
+                    <div class="table-element"><input type="number"></div>
+                    <div class="table-element"><input type="number"></div>
+                </div>
+            </div>
+            <p>Comentarios: </p>
+            <input type="text">
+            <button class="blue-button" id="btn-enviar-datos">Enviar datos</button>
+        </div>
+    </div>
+    <div class="notification-container">
+        
+    </div>
+</body>
+</html>
